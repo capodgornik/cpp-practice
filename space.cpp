@@ -34,9 +34,9 @@ int main() {
     case 7:
       std::cout << "Your weight on Neptune is: " << weighte * 1.19 << " pounds\n";
       break;
-  default:
-    std::cout << "Please select a valid number.\n";
-    break;
+    default:
+      std::cout << "Please select a valid number.\n";
+      break;
   }
   
 }
